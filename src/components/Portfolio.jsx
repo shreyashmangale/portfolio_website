@@ -28,7 +28,7 @@ const Portfolio = () => {
     <div className='max-w-[1200px] mx-auto p-6 md:my-12 my-8 pt-36 relative' id='portfolio'>
         <h2 className='text-3xl text-center font-bold text-gray-200 mb-8'>Portfolio</h2>
         <p className='text-center text-gray-400 mb-8'>
-                I created various Fullstack Projects using MERN Stack Technology. Check them <a href="portfolio" className='underline'> here</a>
+                I created various Fullstack Projects using MERN Stack Technology. Check them here
             </p>
         {projects.map((project, index)=> (
             <div key={index} className={`mt-12 flex flex-col md:flex-row gap-8 ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
