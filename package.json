@@ -1,6 +1,6 @@
 {
   "homepage": "https://shreyashmangale.github.io/portfolio_website",
-  "name": "portfoilo-website",
+  "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
